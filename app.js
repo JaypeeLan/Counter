@@ -10,8 +10,7 @@ addCounter.addEventListener("click", function(){
     }
     display();
 })
-
-
+ 
 
 minus.addEventListener('click', function(){
     if (count > 0 && count <= 50 ){
@@ -23,6 +22,3 @@ minus.addEventListener('click', function(){
 function display(){
     result.innerHTML = count;
 };
-
-
-
